@@ -1,0 +1,34 @@
+.resize_icon {
+    width: 60px;
+    height: auto;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+
+.carouselFont {
+  font-weight: bold;
+}
+
+.nav a {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.pageTitle {
+  font-weight: bold;
+}
+
+.noLinkColor {
+    color: inherit;
+    text-decoration: none;
+}
+
+.noLinkColor:hover 
+{
+     color: inherit; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
