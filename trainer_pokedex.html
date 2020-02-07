@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Trainer Pokedex</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <div class="container">
+
+        <ul class="nav nav-tabs">
+            <a class="navbar-brand ball" href="#">
+                <img class="ball" src="images/ball.png">
+            </a>
+            <li class="nav-item">
+                <a class="nav-link active" href="####">Index</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Database</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="####">Trainer Inventory</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="####">Search for Pokemon</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!--Title and Intro-->
+
+    <div class="container my-5 text-center">
+        <hr class="featurette-divider">
+        <h1 class="my-5 pageTitle">Trainer Pokedex</h1>
+
+
+        <h3 class="my-5">The Trainer Pokedex contains records details on trainers such as their name, gender, and age.
+            Below
+            users can view and delete from the Trainer Pokedex</h3>
+        <br>
+    </div>
+
+
+    <!--Insert Trainer-->
+
+    <div class="container my-5 text-left">
+        <h4 class="my-5"><b>Add a trainer to the Trainer Pokedex </b></h4>
+    </div>
+
+    <div class="container my-5 text-center">
+        <form class="form-inline" action="#">
+            <div class="form-group text-form">
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" id="trainer_name">
+            </div>
+            <div class="form-group text-form">
+                <label for="Gender">Gender:</label>
+                <input type="text" class="form-control" id="trainer_gender">
+            </div>
+            <div class="form-group text-form">
+                <label for="Age">Age:</label>
+                <input type="text" class="form-control" id="trainer_age">
+            </div>
+
+            <input class="btn btn-primary" type="submit" value="Insert">
+        </form>
+    </div>
+    <br>
+
+    <div class="container my-5 text-left">
+        <h4 class="my-5"><b>Trainer Pokedex: record details of each trainer</b></h4>
+    </div>
+
+    <!-- Table -->
+    <div class="container my-5 text-center">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Age</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark Otto</td>
+                    <td>Male</td>
+                    <td>21</td>
+                    <td><button class="btn btn-primary" type="submit">Delete</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob Thorton</td>
+                    <td>Male</td>
+                    <td>30</td>
+                    <td><button class="btn btn-primary" type="submit">Delete</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Jane Doe</td>
+                    <td>Female</td>
+                    <td>25</td>
+                    <td><button class="btn btn-primary" type="submit">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <div class="container my-5">
+        <hr class="featurette-divider">
+
+        <!-- FOOTER -->
+        <footer class="my-4 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2020 Pokemon Database</p>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>

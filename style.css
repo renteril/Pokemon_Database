@@ -1,0 +1,46 @@
+.resize_icon {
+    width: 60px;
+    height: auto;
+}
+
+.text-form {
+  margin-right: 15px;
+  margin-left: 15px;
+
+}
+
+label {
+  margin-right: 10px;
+}
+
+.nav a {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.ball {
+  width: 40px;
+  height: auto;
+}
+
+
+.pokedex {
+  width: 200px;
+  height: auto;
+}
+
+.pageTitle {
+  font-weight: bold;
+}
+
+.noLinkColor {
+    color: inherit;
+    text-decoration: none;
+}
+
+.noLinkColor:hover 
+{
+     color: inherit; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
