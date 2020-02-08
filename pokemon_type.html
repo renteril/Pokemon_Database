@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Pokemon Type</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <div class="container">
+
+        <ul class="nav nav-tabs">
+            <a class="navbar-brand ball" href="index.html">
+                <img class="ball" src="images/ball.png">
+            </a>
+            <li class="nav-item">
+                <a class="nav-link" href="trainer_pokedex.html">Trainers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="battle.html">Battles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="pokemon.html">Pokemon</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pokemon_type.html">Pokemon Type</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="attacks.html">Attacks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="defenses.html">Defenses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="trainer_inventory.html">Trainer Inventory</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!--Title and Intro-->
+
+    <div class="container my-5 text-center">
+        <hr class="featurette-divider">
+        <h1 class="my-5 pageTitle">Pokemon Type</h1>
+
+        <h3 class="my-5">The Pokemon Type table contain information a Pokemon's properties.
+            There are 18 types and referred to as elements. A pokemon may have either one or two types</h3>
+        <br>
+    </div>
+
+
+    <!--Insert Trainer-->
+
+    <div class="container my-5 text-left">
+        <h4 class="my-5"><b>Add a type fo the Pokemon Type table:</b></h4>
+    </div>
+
+    <div class="container my-5 text-center">
+        <form class="form-inline" action="#">
+            <div class="form-group text-form">
+                <label for="Type">Type:</label>
+                <input type="text" class="form-control" id="trainer_name">
+            </div>
+            <input class="btn btn-primary" type="submit" value="Insert">
+        </form>
+    </div>
+    <br>
+
+
+    <!-- Table -->
+    <div class="container my-5 text-left">
+        <h4 class="my-5"><b>Pokemon Table: record details of each type:</b></h4>
+    </div>
+
+    <div class="container my-5 text-center">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">TypeID</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Grass</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Rock</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Grass</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <div class="container my-5">
+        <hr class="featurette-divider">
+
+        <!-- FOOTER -->
+        <footer class="my-4 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2020 Pokemon Database</p>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
